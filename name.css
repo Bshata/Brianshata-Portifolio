@@ -1,0 +1,435 @@
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    
+    
+        
+    }
+    body{
+    background: #424242  ;
+    
+    }
+    .linkedin  {
+       
+        background: #424242;
+        position: relative;
+        margin-left: 900px;
+        border-radius: 5px;
+        display: inline-flex;
+        margin: 10px;
+    
+    }
+    .linkedin a{
+        color: #fff;
+        font-size: 34px;
+        text-decoration: none;
+        font-weight:800;
+    
+    }
+
+
+
+    /* Navigations edition */
+    .navigations{
+        font-size: 18px;
+        position: relative;
+        margin-top: 4px;
+
+        background-color: white;
+       
+    
+       
+        
+    ;
+
+    }
+    .navigations li a{
+        text-decoration: none;
+        list-style: none;
+        color: #424242 ;
+        font-family: 'Oswald', sans-serif;
+        font-style:normal;
+        font-weight: 400;
+        transition: 1s  ;
+    
+        
+    }
+
+    .navigations li {
+        display: inline-block;
+        padding: 20px;
+    
+    
+
+    
+
+    }
+
+    .navigations li :hover{
+        color: #00FEC7;
+    }
+
+        /* Heading edition*/
+    .heading-icon{
+        display: flex;
+        margin-top: 200px;
+        margin-left: 20px;
+        position: relative;
+        flex-wrap:wrap;
+    
+        
+    }
+
+    
+
+    .heading h1{
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 96px;
+        border: 5px solid #00FEC7;
+        display: inline-block;
+        border-radius: 30px;
+        background: #00FEC7;
+        transition: 0.5s;
+    
+        /* identical to box height */
+
+
+        color: #fff;
+
+    }
+    .heading h1:hover{
+        background: transparent   
+    }
+    .heading span{
+        color: #FFFF;
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        word-spacing: -30px;
+    
+        
+    }
+    .heading h2{
+        font-family: 'Oswald', sans-serif;
+        font-style:normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 108px;
+        -webkit-text-stroke: 1px #00FEC7;
+        color: transparent;
+        
+
+        /* identical to box height */
+
+        letter-spacing: 0.055em;
+
+
+        border-radius: 20px;
+        
+
+    }
+
+    .box   {
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 812px;
+        height: 450px;
+        left: 720px;
+        background: #292B2C;
+        opacity: 0.8;
+        border-radius: 15px 15px 15px 15px;
+        transition: 0.5s;
+        }
+    .box:hover{
+        border-top-right-radius: 0px;
+    }
+    #name{
+        position: absolute;
+        width: 300px;
+        height: 18px;
+        left: 248px;
+        top: 8px;
+
+        background: #202226;
+        opacity: 0.9;
+        border-radius: 5px;
+        color: #FFFF;
+        text-align: center;
+        font-size: 15px;
+        transition: 1s;
+        
+    }
+
+    #name:hover{
+        border-radius:15px;
+        background: #00FEC7;
+        color: #202226  ;
+    
+
+    }
+
+    #icon1{
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        left: 24px;
+        top: 11px;
+        border-radius: 20px;
+        background: #FF5F56;
+    }
+    #icon2{
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        left: 40px;
+        top: 11px;
+        border-radius: 20px;
+        background: #FFBD2E;
+    }
+    #jobtitle{
+        font-size: 20px;
+        color: #fff;;
+        text-align: left;
+        margin-top: 100px;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 100px;  
+    }
+    #job{
+        color: #6F2DC2;
+    }
+    #title{
+        color: #00FEC7;
+    }
+    #education{
+        font-size: 20px;
+        color:#fff;
+        text-align: left;
+        margin-top: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 100px;
+
+
+    }
+    #ed{
+        color: #6F2DC2;
+        
+
+    }
+    #edu{
+        color: #00FEC7;
+    }
+    .Experience {
+        margin-top  : 400px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        font-size: 30px;
+        justify-content: space-around;
+        width: 100%;
+        position: absolute;
+    
+    }
+
+
+
+    /* BOX EDITING*/
+    .box1{
+    
+        width: 509px;
+        height: 275px;
+        background:#292B2C;
+        opacity: 0.8;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;  
+        transition: 0.5s;
+        color:#00FEC7;
+
+    }
+    .box1:hover{
+        border-top-right-radius: 0PX;
+        color:transparent;
+        -webkit-text-stroke: 1px  #00FEC7;
+        transition: 0.5S;   
+    
+    }
+    #h2{
+    
+        text-align: center;
+        margin-top: 80PX;
+    
+        
+    }
+
+
+
+
+
+    .box2   {
+    
+        width: 509px;
+        height: 275px;
+        background:#292B2C;
+        opacity: 0.8;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        transition: 0.5s;
+        color: #00FEC7;
+        
+    }
+    .box2:hover{
+        border-top-right-radius: 0PX;
+        color:transparent;
+        -webkit-text-stroke: 1px  #00FEC7;
+        transition: 0.5S;   
+    }
+    /* To be looked at*/
+    #b:nth-child(1){
+    
+        width: 8px;
+        height: 8px;
+        left: 200px;
+        background: #FF5F56;
+        top: 11px;
+        border-radius: 20px;
+
+    }
+    #b:nth-child(2) {
+
+        width: 8px;
+        height: 8px;
+        left: 200px;
+        background: #FFBD2E; margin: 10px;
+        margin-left:12px ;
+
+        top: 11px;
+        border-radius: 20px;
+
+    }
+    #b:nth-child(3){
+        
+        width: 8px;
+        height: 8px;
+        left: 140px;
+        background: #27C93F;
+        top: 11px;
+        border-radius: 20px;
+        margin-left:12px ;
+
+    }
+    #b{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .box3{
+        
+        width: 509px;
+        height: 275px;
+        background:#292B2C;
+        opacity: 0.8;
+        border-radius: 15px 15px 0px 0px;
+        display: flex;
+        transition: 0.5s;
+        color: #00FEC7;
+    }
+    .box3:hover{
+        border-top-right-radius: 0PX;
+        color:transparent;
+        -webkit-text-stroke: 1px  #00FEC7;
+        transition: 0.5S;   
+    }
+
+    html{
+
+        scroll-behavior:smooth ;  
+    }
+    .showcase{
+
+        position:relative;
+        height: 100vh;
+        background-color: white ;
+        width: 100%;
+        margin-top: 1000px;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        font-family:'Poppins' ;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: 1s;
+        color: white;
+
+
+
+
+        
+    }
+    .showcase:hover{
+        background-color: #424242 ;
+        color: black;
+       
+    }
+    #hh{
+        
+        font-size: 20px;
+        
+    
+
+    }
+    .profile{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+
+    .skillss button{
+        font-size: 20px;
+        background: red;
+        padding: 10px
+    }
+  
+
+    #pp{
+        transition: 0.5;
+        color: red;
+    }
+
+    .imagew img{
+        width: 20%;
+        border-radius: 30px;
+    }
+    .imagew{
+        align-items: left       ;
+    }
+    .forms{
+        font-size :30px;
+    }
+
+
+    .whats img{
+        height: 5px ;
+    }
+    #foromu{
+        display: flex;
+        flex-direction: column;
+     
+        text-align: center;
+        
+    }
+
+    @media  
+
+
+
+
+   
